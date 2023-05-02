@@ -1,0 +1,643 @@
+<html>
+<head>
+    <base href="https://www.saramin.co.kr">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="robots" content="noindex,nofollow">
+	<title>이력서 보기</title>
+	<style type="text/css">
+		html {color:#000;background:#fff}
+		body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,blockquote,button {margin:0;padding:0}
+		body {width:100%;min-width:1260px;font-size:13px;color:#444;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal}
+		ol,ul,li {list-style:none}
+		address,caption,cite,code,dfn,em,strong,th,var{font-style:inherit;font-weight:inherit}
+		p {margin:0}
+		strong {font-weight:bold}
+		caption, legend, .hidden, .blind {overflow:hidden;position:absolute;top:0;left:-1000%;z-index:-1;width:1px;height:1px;font-size:0;line-height:0}
+		.wrap_letterview div, p, ul, td, input, a, span, em {font-style:normal;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.ico_point {padding:2px 4px 3px 4px;border:1px solid #a8a8a8;border-radius:20px;color:#666;font-size:12px;line-height:14px;text-align:center}
+		.section_profile {width:645px;letter-spacing:-1px}
+		.section_profile .area_title .title {margin-top:0;font-size:26px;color:#222;font-weight:bold;letter-spacing:-2px;line-height:28px;text-align:left;word-wrap:break-word;word-break:break-word}
+		.personal_info {table-layout:fixed;padding-top:42px;margin-top:12px;border-top:1px solid #888}
+		.personal_info:after {display:table;table-layout:fixed;clear:both;content:""}
+		.myname {padding-bottom:10px}
+		.myname em {display:inline-block;padding-right:15px;color:#444;font-size:22px;font-weight:bold;line-height:16px}
+		.myname .birthday {display:inline-block}
+		.myname .birthday span {display:inline-block;padding:0 8px}
+		.address_list td {font-size:12px;letter-spacing:0}
+		.address_list td p {margin-right:10px;padding-top:10px;word-wrap:break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.keypoint_list table {padding:20px 0 10px;width:645px}
+		.keypoint_list .list_type1 {padding-left:20px}
+		.keypoint_list .list_type1 li {margin-bottom:3px;font-size:12px;line-height:14px}
+		.keypoint_list .list_type1 li p {font-size:12px;word-wrap:break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.dashboard {width:645px}
+		.dashboard table {width:645px}
+		.dashboard .dashboard_list {width:643px;margin-bottom:20px;border-collapse:collapse;background:#fcfcfc}
+		.dashboard .dashboard_list th {padding: 10px 15px 0 15px;text-align: center;background:#fcfcfc;border:1px solid #eaeaea;font-size: 12px;white-space:nowrap}
+		.dashboard .dashboard_list th p {margin:0 10px 15px 11px;font-weight:bold}
+		.dashboard .dashboard_list td {padding: 10px 15px 20px 15px;vertical-align: middle;background: #fff;text-align: center;border: 1px solid #eaeaea}
+		.dashboard .dashboard_list td p {font-size: 12px;word-wrap: break-word;word-break: break-all;-ms-word-wrap: break-word;-ms-word-break: break-all}
+		.section_part .area_title {position:relative;margin-top:58px}
+		.section_part .area_title .title {margin:0;padding:0;color:#444;font-size:23px;font-weight:bold;line-height:23px;text-align:left;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.indetail {padding-left:18px;font-size:16px;font-weight:normal}
+		.indetail .bar {display:inline-block;position:relative;padding-left:11px;margin-left:11px}
+		.indetail .bar:after {position:absolute;left:0;top:5px;width:1px;height:10px;background:#cacaca;content:""}
+		.indetail span em {display:inline-block;margin:0 2px 0 3px;color:#fe6854;font-weight:bold}
+		.bar_txtline em {display:inline-block;color:#444;font-size:12px;line-height:20px}
+		.bar_txtline span {padding-left:12px;margin-left:12px;position:relative;color:#444;font-size:12px;line-height:15px}
+		.bar_txtline span:after {position:absolute;left:0;top:5px;width:1px;height:10px;background:#cacaca;content:""}
+		.portfolio_txtline {position:relative;margin-top:10px}
+		.portfolio_txtline:first-child {margin-top:0}
+		.portfolio_txtline span {font-size:12px}
+		.portfolio_txtline span.volume {display:inline-block;position:relative;padding-left:12px;margin-left:12px;color:#444;line-height:15px;vertical-align:bottom}
+		.portfolio_txtline span.volume:after {display:block;content:'';position:absolute;left:0;top:2px;width:1px;height:10px;background:#cacaca}
+		.section_part .part_table {margin-top:15px;border-top:2px solid #666;background-color:#fff}
+		.section_part .part_table a {color:#444}
+		.section_part .part_table .box_point {margin-bottom:10px}
+		.part_table .inpart_view {margin:0;padding:0;width:100%;border:0;border-left:1px solid #eaeaea;border-collapse:collapse;background-color:#fff}
+		.part_table .inpart_view th {padding:18px 0 20px 0;border:1px solid #eaeaea;white-space:nowrap;color:#444;font-size:12px;font-weight:bold;background:#f7f7f7}
+		.part_table .inpart_view td {padding:15px 14px 17px 14px;border:1px solid #eaeaea;padding-bottom: 20px;font-size: 12px;word-wrap: break-word;word-break: break-all;-ms-word-wrap: break-word;-ms-word-break: break-all;font-family:"Malgun Gothic",dotum,gulim,sans-serif}
+		.part_table .inpart_view td.lineup_center {padding-right:5px;padding-left:5px;text-align:center}
+		.part_table .inpart_view .intit {word-wrap: break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.part_table .inpart_view .intxt {word-wrap: break-word;word-break:break-all;-ms-word-wrap:break-word;-ms-word-break:break-all}
+		.part_table .inpart_view td .ico_point {padding-top:0px;padding-left:7px;padding-right:7px;margin-right:15px}
+		.part_table .inpart_view td .bar_txtline {margin:0}
+		.part_table .inpart_view .project {display:inline-block;padding-top:14px;font-size:14px;line-height:20px;letter-spacing:-1px;vertical-align:top}
+		.part_table .inpart_view .project li {margin-top:-12px;padding-left:4px}
+		.part_table .inpart_view .project .tit {display:block;margin:0 0 0 -3px;font-weight:bold}
+		.part_table .inpart_view .project .tit:before {display:inline-block;margin:9px 7px 0 0;width:0;height:0;border:3px solid #444;border-radius:4px;vertical-align:top;content:""}
+		.part_table .inpart_view .project .desc {padding:0 0 24px 10px;border-left:1px dashed #c0c0c0}
+		.part_table .inpart_view .project .desc .date {display:block;padding:5px 0}
+		.part_table .inpart_view .project li:last-child .desc {border-color:#fff;padding-bottom:0}
+		.part_table .inpart_view .txt_detail {padding-top:10px}
+		.part_table .inpart_view th {border-top:0}
+		.part_table .inpart_view td.wrap_result {padding:30px}
+		.part_table .unit_result {overflow:hidden;position:relative;width:100%;border:0;box-sizing:border-box}
+		.part_table .unit_result th {padding:0;border:0;background:#fff}
+		.part_table .unit_result td {padding:0;border:0;text-align:center;background:#fff}
+		.part_table .unit_result .tit {color:#666;font-size:12px;font-weight:normal}
+		.part_table .unit_result .result {margin:0;padding:0;margin-top:5px;color:#444;font-size:21px}
+		.part_table .unit_result .result span {padding-left:3px;font-size:13px;line-height:18px}
+		.part_table .unit_result .row_color {color:#12a8f6}
+		.part_table .unit_result .middle_color {color:#4d87e8}
+		.part_table .unit_result .high_color {color:#5b6feb}
+		.part_table .unit_result .fst .result {font-weight:bold;letter-spacing:-2px}
+		.part_table .unit_result .fst .result span {font-size:21px}
+		.part_table .unit_result .type_num .result {margin-top:5px;font-weight:bold;font-size:23px}
+		.part_table .total_result {position:relative;border-top:0}
+		.part_table .total_result td {border:0}
+		.part_table .total_result .tit_result {border:0;padding:0 0 10px;color:#444;font-weight:bold;font-size:16px;text-align:left;letter-spacing:-2px;background:#fff}
+		.part_table .total_result .key_info {padding-top:13px;border:0;color:#888;font-size:12px;line-height:16px}
+		.part_table .total_result .key_info table {border-collapse:collapse;border-spacing:0;table-layout:fixed;letter-spacing:-1px}
+		.part_table .total_result .key_info table th {padding:7px 0 0;width:82px;border:0;color:#666;font-size:12px;font-weight:bold;text-align:left;vertical-align:top;background:#fff}
+		.part_table .total_result .key_info table th span:before {display:inline-block;margin:-2px 5px 0 0;border:1px solid #999;border-radius:50%;vertical-align:middle;content:""}
+		.part_table .total_result .key_info table td {padding:7px 0 0;border:0;color:#888}
+		.part_table .total_result .personality_detail {padding:16px 0 30px;border-bottom:1px solid #eaeaea;font-size:12px}
+		.part_table .total_result .aptitude_detail {margin:0 0 20px;padding:0;border:1px solid #eaeaea;border-top:1px solid #444}
+		.part_table .total_result .aptitude_detail table {width:100%;border-collapse:collapse;border-spacing:0;table-layout:fixed;letter-spacing:-1px}
+		.part_table .total_result .aptitude_detail table th {padding:11px 0 13px;border:0;color:#888;font-size:12px;font-weight:normal;text-align:center;background:none}
+		.part_table .total_result .aptitude_detail table td {padding:20px 15px 23px;border-top:1px solid #eaeaea;box-sizing:border-box;color:#222}
+		.part_table .total_result .aptitude_detail table td strong {color:#222}
+		.part_table .total_result .aptitude_detail table td.tit {width:70px;font-weight:bold;text-align:center}
+		.part_table .total_result .aptitude_detail table td.rating {width:70px;padding-right:10px;padding-left:10px;font-size:22px;line-height:22px}
+		.part_table .total_result .aptitude_detail table td.per {width:70px;font-size:18px}
+		.part_table .total_result .aptitude_detail table td.text {color:#666;font-size:12px;text-align:left}
+		.my_letter_view .intit {padding-top:30px;font-weight:bold;color:#222}
+		.my_letter_view .intit:first-child {padding-top:0}
+		.my_letter_view .intxt {padding-top:5px}
+	</style>
+</head>
+<body style="text-align:center;">
+<div class="wrapper_narrow wrap_letterview">
+	<!-- 제목 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <tr>
+        <td>
+            <div class="section_profile">
+                <div class="area_title">
+                    <h3 class="title">다양한 경험과 긍정적인 마인드를 가진 개발자</h3>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+<!-- 기본정보 -->
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_profile">
+                <div class="personal_info">
+                    <div class="my_data">
+                        <table style="width:645px;">
+                                                            <colgroup>
+                                    <col width="120px">
+                                    <col width="525px">
+                                </colgroup>
+                                                        <tbody>
+                            <tr>
+                                                                    <td>
+                                        <div style="width:100px"><img alt="" src="https://www.saramin.co.kr/zf_user/persons/picture?idx=5544620|c6e7222ca615ab91b34e0ce8414ef96fe773b7ec41f0807bbfbd6771dd31f5c2" border="0" width="100" height="140" /></div>
+                                    </td>
+                                                                <td>
+                                    <p class="myname">
+                                        <em>안현모</em>
+                                        <span class="birthday">
+                                            <span>1990년 (34세/만 32세)</span> |
+                                            <span>남</span>
+                                        </span>
+                                    </p>
+                                    <table class="address_list" cellspacing="0" border="0" cellpadding="0" style="width:525px">
+                                        <tbody>
+                                        <tr>
+                                            <td><p>dksah97@hanmail.net</p></td>
+                                            <td><p>010-4653-7552 </p></td>
+                                            <td><p>02-2663-6069</p></td>
+                                        </tr>
+                                        <tr>
+                                            <td colspan="3"><p>(157-221) 서울 강서구 방화1동 </p></td>
+                                        </tr>
+                                        </tbody>
+                                    </table>
+                                </td>
+                            </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="dashboard">
+                <table class="dashboard_list" cellspacing="0" border="0" cellpadding="0">
+                    <thead>
+                    <tr>
+                        <th><p>학력사항</p></th>
+                        <th><p>경력사항</p></th>
+                        <th><p>희망연봉</p></th>
+                        <th><p>희망근무지/근무형태</p></th>
+                        <th><p>포트폴리오</p></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>
+                            <p class="txt">대학교(4년) 졸업</p>
+                        </td>
+                        <td>
+                            <p class="txt">경력  2년 3개월</p>
+                        </td>
+                        <td>
+                            <p class="txt">회사내규에 따름</p>
+                        </td>
+                        <td>
+                            <p class="txt">서울전체<br>정규직, 프리랜서<br>(직전 연봉 : 3,600&nbsp;만원)</p>
+                        </td>
+                        <td>
+                            <p class="txt portfolio_txt">-</p>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">학력<span class="indetail">최종학력<span class="bar">대학교<em>4년</em>졸업</span></span></h3>
+                </div>
+                                    <div class="part_table">
+                                                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                                <thead>
+                                <tr>
+                                    <th scope="col">재학기간</th>
+                                    <th scope="col">구분</th>
+                                    <th scope="col">학교명(소재지)</th>
+                                    <th scope="col">전공</th>
+                                    <th scope="col">학점</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                                                    <tr>
+                                        <td class="lineup_center" rowspan="1">
+                                                                                            2009.03 ~ 2015.02                                                                                    </td>
+                                        <td class="lineup_center" rowspan="1">
+                                            졸업                                        </td>
+                                        <td>
+                                            순천향대학교 (충남)                                        </td>
+                                        <td>
+                                                                                            사회복지학과                                                                                                                                                                                                                                    </td>
+                                        <td class="lineup_center">2.74 / 4.5</td>
+                                    </tr>
+                                                                                                                                        <tr>
+                                        <td class="lineup_center" rowspan="1">
+                                                                                            2006.03 ~ 2009.02                                                                                    </td>
+                                        <td class="lineup_center" rowspan="1">
+                                            졸업                                        </td>
+                                        <td>
+                                            한서고등학교                                        </td>
+                                        <td>
+                                                                                            문과계열                                                                                                                                                                                                                                    </td>
+                                        <td class="lineup_center">-</td>
+                                    </tr>
+                                                                                                    </tbody>
+                            </table>
+                                            </div>
+                                                            </div>
+        </td>
+    </tr>
+    </tbody>
+</table>    <table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+        <colgroup>
+            <col width="100%">
+        </colgroup>
+        <tbody>
+        <tr>
+            <td>
+                <div class="section_part">
+                    <div class="area_title">
+                        <h3 class="title">경력<span class="indetail"><span>총 <em>2</em>년<em>3</em>개월</span></span></h3>
+                                            </div>
+                    <div class="part_table">
+                                                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                                <thead>
+                                <tr>
+                                    <th scope="col">근무기간</th>
+                                    <th scope="col">회사명</th>
+                                    <th scope="col">부서/직급/직책</th>
+                                    <th scope="col">지역</th>
+                                    <th scope="col">연봉</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                                                                                        <tr>
+                                        <td class="lineup_center" rowspan="2">
+                                                                                            2021.03 ~ 2023.05<br/>(2년 3개월)                                                                                    </td>
+                                        <td class="">스마트포트테크놀로지</td>
+                                        <td>주임</td>
+                                        <td>서울</td>
+                                        <td class="lineup_center" style="white-space: nowrap;">
+                                            3,600만원                                                                                    </td>
+                                    </tr>
+                                                                            <tr>
+                                            <td colspan="4">
+                                                <p class="box_point"><span class="ico_point">담당업무</span>Airpremia 홈페이지 웹 개발, 삼성EVC전기차충전소 내부 ERP 설계 및 개발, 유지보수</p>                                                <p class="box_point"><span class="ico_point">퇴사사유</span>개인사정</p>                                                                                                    <div class="box_point">
+                                                        <span class="ico_point">프로젝트</span>
+                                                        <ul>
+                                                                                                                            <li>
+                                                                    <strong class="tit">Airpremia 홈페이지 웹 개발</strong>
+                                                                    <div class="desc">
+                                                                        2021.03~2021.07(5개월)                                                                        <br>
+                                                                        Airpremia 홈페이지 프론트 웹 개발 진행<br />
+- 1) 홈페이지 예약화면, 예약조회, 회원가입, 회원탈퇴, 회원정보수정, 회원·비회원 예매시 회원정보입력 란등 Airpremia 홈페이지 Front 전반적인 개발 진행<br />
+- 2) 개발시 사용 기술스택 - React, Redux-saga, typescript, Graphql                                                                    </div>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <strong class="tit">ERP 개발 및 홈페이지 유지보수</strong>
+                                                                    <div class="desc">
+                                                                        2021.08~2022.03(8개월)                                                                        <br>
+                                                                        투이스 전기차 회사  ERP 개발 및 홈페이지 유지보수 진행.<br />
+투이스 매출에 대한 정산, Account(회계) 등 ERP전반에 대한 개발 및 홈페이지 유지보수 진행<br />
+개발시 사용 기술스택 -java,  db - MariaDB<br />
+                                                                    </div>
+                                                                </li>
+                                                                                                                            <li>
+                                                                    <strong class="tit">인천세관 해상특송물류센터 SW</strong>
+                                                                    <div class="desc">
+                                                                        2022.03~2023.05(1년 3개월)                                                                        <br>
+                                                                        Spring MVC 기반 물류센터 사용자 기반 소프트웨어 개발<br />
+물류센터 내 사용 PDA 화면 개발 등<br />
+개발시 사용 기술스택 -java,  db - Sql Server                                                                     </div>
+                                                                </li>
+                                                                                                                    </ul>
+                                                    </div>
+                                                                                            </td>
+                                        </tr>
+                                                                                                                                            <tr>
+                                        <td class="lineup_center" rowspan="2">
+                                                                                            2017.08 ~ 2020.03<br/>(2년 8개월)                                                                                    </td>
+                                        <td class="">이스타포트</td>
+                                        <td>김포팀&nbsp;/&nbsp;사원&nbsp;/&nbsp;3년차</td>
+                                        <td>서울</td>
+                                        <td class="lineup_center" style="white-space: nowrap;">
+                                            2,800만원                                                                                    </td>
+                                    </tr>
+                                                                            <tr>
+                                            <td colspan="4">
+                                                <p class="box_point"><span class="ico_point">담당업무</span>공항내 전반적인 고객응대 및 서류 결재 등 업무</p>                                                <p class="box_point"><span class="ico_point">퇴사사유</span>경영악화</p>                                                                                            </td>
+                                        </tr>
+                                                                                                                                            <tr>
+                                        <td class="lineup_center" rowspan="2">
+                                                                                            2015.06 ~ 2017.04<br/>(1년 11개월)                                                                                    </td>
+                                        <td class="">서울강남시니어클럽</td>
+                                        <td>노인일자리&nbsp;/&nbsp;사원&nbsp;(팀원)&nbsp;/&nbsp;2년차</td>
+                                        <td>-</td>
+                                        <td class="lineup_center" style="white-space: nowrap;">
+                                            2,000만원                                                                                    </td>
+                                    </tr>
+                                                                            <tr>
+                                            <td colspan="4">
+                                                <p class="box_point"><span class="ico_point">담당업무</span>노인일자리 담당</p>                                                                                                                                            </td>
+                                        </tr>
+                                                                                                    </tbody>
+                            </table>
+                                            </div>
+                </div>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+<table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">경험/활동/교육</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <thead>
+                        <tr>
+                            <th scope="col">기간</th>
+                            <th scope="col">구분</th>
+                            <th scope="col">기관/장소</th>
+                            <th scope="col">내용</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td class="lineup_center">2013.03 ~ 2014.12</td>
+                                <td class="lineup_center">교내활동</td>
+                                <td>순천향대학교 사회복지학과</td>
+                                <td>3학년, 4학년 학년 과대표활동</td>
+                            </tr>
+                                                </tbody>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">자격증/어학/수상내역</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <thead>
+                        <tr>
+                            <th scope="col">취득일/수상일</th>
+                            <th scope="col">구분</th>
+                            <th scope="col">자격/어학/수상명</th>
+                            <th scope="col">발행처/기관/언어</th>
+                            <th scope="col">합격/점수</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td class="lineup_center">2023.06 </td>
+                                <td>자격증/면허증</td>
+                                <td>정보처리기사 </td>
+                                <td>한국산업인력공단</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2022.04 </td>
+                                <td>자격증/면허증</td>
+                                <td>SQL개발자(SQLD자격) </td>
+                                <td>한국데이터베이스진흥센터</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2018.08 </td>
+                                <td>어학시험</td>
+                                <td>JLPT</td>
+                                <td>일본어</td>
+                                <td>2급/PASS</td>
+                            </tr>
+                                                                                <tr>
+                                <td class="lineup_center">2015.03 </td>
+                                <td>자격증/면허증</td>
+                                <td>사회복지사1급</td>
+                                <td>한국사회복지사협회</td>
+                                <td>최종합격</td>
+                            </tr>
+                                                </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">취업우대사항</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <tbody>
+                                                                                                    <tr>
+                                <th>병역대상</th>
+                                <td colspan="3">
+                                    <p class="bar_txtline">
+                                        <em>군필</em><span> 2009.12 ~ 2011.09</span><span>육군</span><span>병장</span><span>만기제대</span>                                    </p>
+                                </td>
+                            </tr>
+                                                </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">보유기술</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0" width="645">
+                        <thead>
+                            <th scope="col">보유기술명/수준/상세내용</th>
+                        </thead>
+                        <tbody>
+                                                                                <tr>
+                                <td>
+	                                <b>RDBMS</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>JSP</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>jQuery</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Spring</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Maria DB</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>JavaScript</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Spring Boot</b>	                                                                </td>
+                            </tr>
+                                                                                <tr>
+                                <td>
+	                                <b>Java</b>	                                                                </td>
+                            </tr>
+                                                </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">경력기술서</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
+                            <td>
+                                1) 프로젝트명 : Airpremia 홈페이지 웹 개발<br />
+- 수행 기간 : 2021.03 ~ 2021.07 (약 4개월 소요)<br />
+- 주요 역할 : 홈페이지 Front 부분 전반적인 화면 개발 및 보수<br />
+- 업무 성과 :  Airpremia 홈페이지 오픈을 위한 개발 완료, 사회에서의 짧지만 첫 개발 Project 경험<br />
+<br />
+2) 프로젝트명 : 삼성EVC 전기차 ERP 개발<br />
+- 수행 기간 : 2021.12 ~ 2022.03 (약 4개월 소요)<br />
+- 주요 역할 : ERP 업무 프로세스파악 및 Account, 정산Report, 간단한 홈페이지 유지보수 등<br />
+- 업무 성과 :  html과 javascript를 통한 간단한 홈페이지 유지보수 진행, ERP업무에 관한 필요한 테이블 설계 및 생성,<br />
+필요한 공통코드등 Insert 및 트리거를 통한 자동 데이터 전송 등 경험<br />
+<br />
+3) 프로젝트명 : 인천세관 해상특송물류센터 SW 개발<br />
+- 수행 기간 : 2022.3 ~ 2023.05 (약 15개월 소요)<br />
+- 주요 역할 : 해상특송물류센터 사용자 화면 SW 개발 및 PDA화면 개발 및 팀원 업무 분담, 스케줄링 등<br />
+- 업무 성과 :  해상특송물류센터 화면설계 및 1차 개발 완료 후 ppt 발표 진행, 1차테스트 완료 등<br />
+<br />
+                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table><table width="645" border="0" cellspacing="0" cellpadding="0" style="width:645px;">
+    <colgroup>
+        <col width="100%">
+    </colgroup>
+    <tbody>
+    <tr>
+        <td>
+            <div class="section_part">
+                <div class="area_title">
+                    <h3 class="title">자기소개서</h3>
+                </div>
+                <div class="part_table">
+                    <table class="inpart_view" cellspacing="0" cellpadding="0">
+                        <tbody>
+                        <tr>
+                            <td class="my_letter_view">
+                                                                                                        <p class="intit">[자기소개]</p>
+                                    <div class="intxt"> * 여러가지 경험을 가지고 있는, 성장해 나가는 개발자<br />
+ 스마트포트테크놀로지라는 첫 회사에 입사하여, 에어프레미아라는 항공사 홈페이지를 React라는 언어로 처음 개발을 시작하였으며, 2번째 업무로는 ERP팀으로 이동하여 Frappe Framework라는 툴로 되어있는 ERP서비스 유지보수 및 개발을 통해 자바 및 MariaDB, ERP에 대한 작지만 소중한 경험을 얻었습니다.<br />
+ 또한 가장 큰 경험인 인천세관 해상특송물류센터 SW 개발(Spring MVC) 프로젝트를 진행하였으며, 사용자가 사용하는 전체적인 화면 UI설계, DB 설계 및 수정 그리고 현장 사용자들이 사용할 수 있는 PDA화면 개발 등을 진행하며 짧은 기간 다양한 프로젝트를 경험하였습니다.<br />
+ 짧은경력이지만, 리액트, ERP, 자바개발 등 다양한 경험을 얻으면서 새로운 언어, 해보지 않은 개발 코드등에 대한 두려움보다는 &quot;해보면 되지&quot;라는 긍정적인 마인드를 가지게 되었으며, 새로운 회사에서 새로운 사람들과 즐겁게 개발 하고 싶은 개발자입니다.</div>
+                                                                                                        <p class="intit">[성격의 장점 & 단점]</p>
+                                    <div class="intxt">* 소통하는 리더<br />
+ 고등학교 1학년, 3학년에는 학급회장 및 동아리 회장등을 맡았으며, 대학교 4년 중 3학년, 4학년 2년동안 학년 사회복지학과 과대표를 맡는 등 때로는 앞에서 이끌면서, 또 때로는 뒤에서 받쳐주는 리더가 되어 왔습니다.<br />
+ 학우들의 의사소통을 중요시하며. 참여적이고 모두를 최대한 포괄할 수 있는 민주적인 의사소통 능력을 함양하고 있었고 주변의 인정을 받았기에, 졸업식 때는 졸업생 대표로서 답사를 하는 영광을 얻기도 하였습니다.<br />
+공항에서 일하였을 때는, 실력을 인정받아 게이트내에서 전반적인 책임을 맡아 업무를 진행하는 팀장의 역할을 맡기도 하였습니다.<br />
+ 주변 사람들의 말을 들어주는 Good Listener가 되기도 하고, 사람들 사이의 중재자가 되기도 하고, 따뜻함과 소통을 중시하는 성격을 가지고 있습니다.<br />
+ 또한 스마트포트테크놀로지에서 업무하였을때는 ERP팀, 그리고 해상특송물류센터 개발시에도 화면UI설계부터 팀원들에 대한 업무분담, 스케줄링 등 전체적인 관리를 맡으며 책임감 있고 리더쉽 있는 모습을 보여주었습니다.</div>
+                                                                                                        <p class="intit">[직무관련 경험(직무역량) ]</p>
+                                    <div class="intxt"> * 개발에 즐거움을 느끼는 초급 개발자<br />
+ 현재 회사에서 첫 개발은 Airpremia 웹 홈페이지 개발을 진행하였습니다.<br />
+3월에 입사하여, 7월까지 해당 홈페이지 웹 개발을 진행하였으며, 주로 진행한 업무로는<br />
+홈페이지 Front 부분 전반적인 개발(메인화면 조회, 회원가입, 회원정보 입력, 회원 탈퇴, 예매시 회원·뵈회원 예매조회 등)을 진행하였으며<br />
+기술스텍으로는 React, Redux-saga, typescript, Graphql 등을 사용하였습니다.<br />
+ 웹 개발이 끝난후 다른부서로 발령되어 타사 전기차 ERP 및 WMS 개발 및 유지보수를 위해 인도 및 해외에서는 개발 및 사용중으로 알고 있으나, ERPNEXT, FrappeFramework로 개발 및 유지보수를 진행하였습니다.<br />
+ 세번째 프로젝트로는 인천세관 해상특송물류센터 SW 개발을 진행하였으며, 언어는 JAVA 데이터베이스는 Sql Server로 진행하였습니다. 인천세관내에서 사용하는 사용자화면 등을 개발 하였으며, 현장에서 사용하는 PDA화면 개발까지 추가적으로 진행하였습니다.</div>
+                                                                                                        <p class="intit">[지원동기 및 입사 후 포부]</p>
+                                    <div class="intxt">* 빠른 적응력과 성과로 놀라움을 드리겠습니다.<br />
+첫 회사에서는 Airpremia 홈페이지 웹 개발 Front 부분을 맡아 개발완료에 큰 힘을 보태었습니다. <br />
+또한 2번째 팀이었던 ERP팀에서는 모두다 신입인 상황에서 Reader의 역할을 맡아 팀을 이끌도록 노력하였습니다.<br />
+마지막 3번째 개발했던 프로젝트에서도 중간관리자가 없어, UI화면설계, DB설계 및 수정, 팀원 업무분담 및 스케줄링등 전체적인 관리를하며 개발을 진행하였습니다.<br />
+저는 아직 배울 것이 많은, 더 많은 코딩을 해보고 싶은 초급 개발자입니다.<br />
+거창한 포부보다, 회사에 도움이 되는 사람이 되겠다는 짧고 굵은 목표를 가지고, 어려운 일, 남들이 기피하는 일도 마다하지 않고, 회사와 조직에 기여하는 사람이 되겠습니다.</div>
+                                                            </td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </td>
+    </tr>
+    </tbody>
+</table></div>
+</body>
+</html>

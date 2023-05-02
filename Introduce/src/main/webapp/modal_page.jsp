@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta charset="EUC-KR">
 <title>Insert title here</title>
 <link href="bootstrap-modal-carousel.css" rel="stylesheet" />
 <script src="bootstrap-modal-carousel.js"></script>
@@ -18,6 +18,11 @@
 }
 
 </style>
+<script type="text/javascript">
+
+$("#myCarousel").carousel({ interval:3000 });
+
+</script>
 
 <body>
 <div id="myCarousel" class="carousel slide carousel-fit" data-ride="carousel">
@@ -26,19 +31,25 @@
     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
     <li data-target="#myCarousel" data-slide-to="1"></li>
     <li data-target="#myCarousel" data-slide-to="2"></li>
+    <li data-target="#myCarousel" data-slide-to="3"></li>
+    <li data-target="#myCarousel" data-slide-to="4"></li>
+    <li data-target="#myCarousel" data-slide-to="5"></li>
+    <li data-target="#myCarousel" data-slide-to="6"></li>
+    <li data-target="#myCarousel" data-slide-to="7"></li>
+    <li data-target="#myCarousel" data-slide-to="8"></li>
   </ol>
 
   <!-- Wrapper for slides -->
   <div class="carousel-inner">
     <div class="item active">
-    <h2>AirPremia í™ˆí˜ì´ì§€ ê°œë°œ</h2>
-      <img class="imgDiv" src="images/airpremia_first.png" alt="First slide" style="width:800px; height:600px;">
+      <h2>AirPremia È¨ÆäÀÌÁö °³¹ß</h2>
+      <img class="imgDiv" src="images/airpremia_first.png" alt="First slide" style="width:600px; height:600px;">
       <div class="carousel-caption" style="padding-bottom:1px;">
       <h5 style="color:black;">Stack : React, TypeScript, DB: MariaDB</h5>
       </div>
     </div>
     <div class="item">
-      <img class="imgDiv" src="images/airpremia_second.png" alt="Second slide" style="width:800px; height:600px;">
+      <img class="imgDiv" src="images/airpremia_second.png" alt="Second slide" style="width:600px; height:600px;">
       <div class="carousel-caption">
       </div>
     </div>
@@ -47,13 +58,39 @@
       <div class="carousel-caption">
       </div>
     </div>
+    
     <div class="item">
+      <h2>ERP °³¹ß ¹× È¨ÆäÀÌÁö À¯Áöº¸¼ö</h2>
       <img class="imgDiv" src="images/erp_first.png" alt="Third slide" style="width:600px; height:600px;">
       <div class="carousel-caption">
+      <h5>Stack : Java(SpringBoot), DB: Sql Server</h5>
       </div>
     </div>
     <div class="item">
       <img class="imgDiv" src="images/erp_second.png" alt="Third slide" style="width:600px; height:600px;">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    
+    <div class="item">
+      <h2>ÀÎÃµ¼¼°ü ÇØ»óÆ¯¼Û¹°·ù¼¾ÅÍ SW °³¹ß</h2>
+      <img class="imgDiv" src="images/sw_pda.png" alt="First slide" style="width:600px; height:600px;">
+      <div class="carousel-caption" style="padding-bottom:20px;">
+      <h5>Stack : Java(SpringBoot), DB: Sql Server</h5>
+      </div>
+    </div>
+    <div class="item">
+      <img class="imgDiv" src="images/sw_pda1.png" alt="Second slide" style="width:600px; height:600px;">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img class="imgDiv" src="images/sw_first.png" alt="Third slide" style="width:600px; height:600px;">
+      <div class="carousel-caption">
+      </div>
+    </div>
+    <div class="item">
+      <img class="imgDiv" src="images/sw_second.png" alt="forth slide" style="width:600px; height:600px;">
       <div class="carousel-caption">
       </div>
     </div>
